@@ -1,0 +1,595 @@
+:root {
+  --primary-color: #7986CB;
+  --secondary-color: #3F51B5;
+  --text-color: #333;
+  --bg-color: #f5f5f5;
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.profile-card {
+  display: flex;
+  background: var(--card-bg);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  overflow: hidden;
+}
+
+.profile-card:first-child .symbol-section {
+  background: linear-gradient(135deg, #800000, #4B0082, #2C3E50);
+}
+
+.profile-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.symbol-section {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  position: relative;
+  overflow: hidden;
+}
+
+.aspects-card .symbol-section {
+  background: linear-gradient(135deg, #FFD700, #800080);
+}
+
+.saturn-card .symbol-section {
+  background: linear-gradient(135deg, #2C3E50, #34495E);
+}
+
+.jupiter-card .symbol-section {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+}
+
+.mars-card .symbol-section {
+  background: linear-gradient(135deg, #FF4136, #FF851B);
+}
+
+.venus-saturn-card .symbol-section {
+  background: linear-gradient(135deg, #FF69B4, #FF1493);
+}
+
+.moon-venus-card .symbol-section {
+  background: linear-gradient(135deg, #E1BEE7, #CE93D8);
+}
+
+.jupiter-pluto-card .symbol-section {
+  background: linear-gradient(135deg, #4B0082, #800080);
+}
+
+.uranus-neptune-card .symbol-section {
+  background: linear-gradient(135deg, #9C27B0, #3F51B5);
+}
+
+.mars-pluto-card .symbol-section {
+  background: linear-gradient(135deg, #FF4136, #85144b);
+}
+
+.sun-mars-card .symbol-section {
+  background: linear-gradient(135deg, #FF4136, #FF851B);
+}
+
+.moon-mars-card .symbol-section {
+  background: linear-gradient(135deg, #FF4136, #FF851B);
+}
+
+.sun-scorpio-card .symbol-section {
+  background: linear-gradient(135deg, #800000, #4A0404);
+}
+
+.moon-gemini-card .symbol-section {
+  background: linear-gradient(135deg, #9FA8DA, #7986CB);
+}
+
+.mercury-scorpio-card .symbol-section {
+  background: linear-gradient(135deg, #800000, #4A0404);
+}
+
+.venus-scorpio-card .symbol-section {
+  background: linear-gradient(135deg, #800000, #4A0404);
+}
+
+.mars-leo-card .symbol-section {
+  background: linear-gradient(135deg, #FF4500, #FF8C00);
+}
+
+.saturn-pisces-card .symbol-section {
+  background: linear-gradient(135deg, #2C3E50, #3498DB);
+}
+
+.moon-first-card .symbol-section {
+  background: linear-gradient(135deg, #9FA8DA, #7986CB);
+}
+
+.symbol-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 60%);
+  animation: rotate 20s linear infinite;
+}
+
+.zodiac-symbol {
+  text-align: center;
+}
+
+.aspect-symbol {
+  text-align: center;
+}
+
+.gemini-symbol {
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aspect-diagram {
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.symbol-bg {
+  fill: rgba(255, 255, 255, 0.1);
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1;
+}
+
+.symbol-bg-inner {
+  fill: rgba(255, 255, 255, 0.05);
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 0.5;
+}
+
+.symbol-line {
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 4;
+  stroke-linecap: round;
+  filter: url(#glow);
+}
+
+.planet-symbol {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+  filter: url(#aspectGlow);
+}
+
+.moon-symbol {
+  fill: none;
+  stroke: white;
+  stroke-width: 3;
+  filter: url(#moonGeminiGlow);
+}
+
+.planet-core {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.sun {
+  fill: url(#sunGradient);
+}
+
+.sun-core {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
+.pluto {
+  fill: url(#plutoGradient);
+}
+
+.pluto-cross {
+  stroke: white;
+  stroke-width: 2;
+  fill: none;
+}
+
+.pluto-core {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.saturn {
+  fill: url(#saturnGradient);
+}
+
+.saturn-cross {
+  stroke: white;
+  stroke-width: 2;
+  fill: none;
+}
+
+.saturn-ring {
+  stroke: white;
+  stroke-width: 2;
+  fill: none;
+}
+
+.mars {
+  fill: url(#marsGradient);
+}
+
+.mars-core {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.mars-arrow {
+  stroke: white;
+  stroke-width: 2;
+  fill: none;
+}
+
+.venus {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.venus-line {
+  stroke: white;
+  stroke-width: 2;
+  fill: none;
+}
+
+.main-lines {
+  stroke-width: 4;
+}
+
+.connecting-lines {
+  stroke-width: 3;
+  stroke-dasharray: 1 0;
+}
+
+.aspect-beam {
+  stroke: white;
+  stroke-width: 2;
+  stroke-dasharray: 4 2;
+  animation: beamFlow 2s linear infinite;
+}
+
+.harmony-beam {
+  stroke: white;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 2;
+  animation: beamFlow 3s linear infinite;
+  opacity: 0.8;
+}
+
+.discordant {
+  stroke: #FF4136;
+  stroke-width: 2;
+  stroke-dasharray: none;
+  animation: none;
+}
+
+.mystic-beam {
+  stroke: rgba(255, 255, 255, 0.8);
+  stroke-width: 1.5;
+  fill: none;
+  filter: url(#mysticGlow);
+  animation: pulseBeam 3s infinite;
+}
+
+.sun-scorpio-card .symbol-section .mystic-beam {
+  stroke: rgba(255,255,255,0.6);
+  stroke-width: 2;
+  filter: url(#scorpioGlow);
+}
+
+.mercury-scorpio-card .mystic-beam {
+  stroke: rgba(255,255,255,0.4);
+  stroke-width: 2;
+  animation: pulseBeam 3s infinite;
+}
+
+.venus-scorpio-card .symbol-section .mystic-beam {
+  stroke: rgba(255,255,255,0.4);
+  stroke-width: 2;
+  animation: pulseBeam 3s infinite;
+}
+
+.jupiter-scorpio-card .mystic-beam {
+  stroke: rgba(255,255,255,0.6);
+  animation: pulseBeam 3s infinite;
+}
+
+.leo-crown {
+  fill: none;
+  stroke: rgba(255,255,255,0.8);
+  stroke-width: 2;
+  filter: url(#leoGlow);
+}
+
+.leo-mane {
+  fill: none;
+  stroke: rgba(255,255,255,0.6);
+  stroke-width: 1;
+  filter: url(#leoGlow);
+  animation: pulse 3s infinite;
+}
+
+.star {
+  fill: white;
+  opacity: 0.8;
+  transform-origin: center;
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+.sparkle {
+  fill: white;
+  animation: twinkle 2s infinite;
+}
+
+.jupiter-scorpio-card .sparkle {
+  animation: twinkle 2s infinite;
+}
+
+.heart {
+  fill: white;
+  opacity: 0.6;
+  animation: pulse 2s infinite;
+}
+
+.aura-ring {
+  animation: expandAura 4s infinite;
+}
+
+.power-text {
+  fill: white;
+  font-size: 8px;
+  text-anchor: middle;
+  font-family: Arial, sans-serif;
+}
+
+.power-text.negative {
+  fill: #FF4136;
+}
+
+.symbol-label {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info-section {
+  flex: 2;
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.traits-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trait-group {
+  flex: 1;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.traits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.traits-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.traits-list li::before {
+  content: "•";
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.challenges li::before {
+  color: #FF5722;
+}
+
+.description {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.description p {
+  margin-bottom: 1rem;
+}
+
+.energy-meter {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.energy-label {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.meter {
+  height: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.meter-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.profile-card:first-child .meter-fill {
+  background: linear-gradient(90deg, #800000, #4B0082, #2C3E50);
+}
+
+.sun-scorpio-card .meter-fill {
+  background: linear-gradient(90deg, #800000, #4A0404);
+}
+
+.moon-gemini-card .meter-fill {
+  background: linear-gradient(90deg, #9FA8DA, #7986CB);
+}
+
+.mercury-scorpio-card .meter-fill {
+  background: linear-gradient(90deg, #800000, #4A0404);
+}
+
+.venus-scorpio-card .meter-fill {
+  background: linear-gradient(90deg, #800000, #4A0404);
+}
+
+.mars-leo-card .meter-fill {
+  background: linear-gradient(90deg, #FF4500, #FF8C00);
+}
+
+.jupiter-scorpio-card .meter-fill {
+  background: linear-gradient(90deg, #4B0082, #800080);
+}
+
+.saturn-pisces-card .meter-fill {
+  background: linear-gradient(90deg, #2C3E50, #3498DB);
+}
+
+.meter-fill.negative {
+  background: linear-gradient(90deg, #2C3E50, #34495E);
+}
+
+.moon-first-card .meter-fill {
+  background: linear-gradient(90deg, #9FA8DA, #7986CB);
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes beamFlow {
+  from {
+    stroke-dashoffset: 6;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pulseBeam {
+  0% { stroke-width: 1; opacity: 0.5; }
+  50% { stroke-width: 2; opacity: 1; }
+  100% { stroke-width: 1; opacity: 0.5; }
+}
+
+@keyframes expandAura {
+  0% { transform: scale(1); opacity: 0.2; }
+  50% { transform: scale(1.2); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 0.2; }
+}
+
+@keyframes pulseFade {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 0.1; }
+}
+
+.zodiac-symbol:hover {
+  animation: pulse 1.5s infinite;
+}
+
+.zodiac-symbol:hover .gemini-symbol {
+  transform: scale(1.05);
+}
+
+.mercury-scorpio-card circle,
+.mercury-scorpio-card line {
+  animation: pulseFade 4s infinite;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+  }
+  
+  .profile-cards {
+    gap: 1rem;
+  }
+  
+  .symbol-section {
+    padding: 3rem;
+  }
+  
+  .traits-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .gemini-symbol {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .aspect-diagram {
+    width: 150px;
+    height: 150px;
+  }
+}
