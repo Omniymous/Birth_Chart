@@ -1,0 +1,3413 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birth Chart Profile - Rising Sign & Aspects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile-cards">
+      <!-- New Overall Summary Card - Add this before all other cards -->
+      <div class="profile-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <!-- Create a symbolic representation of the whole chart -->
+              <defs>
+                <filter id="summaryGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="summaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#800000"/>
+                  <stop offset="50%" style="stop-color:#4B0082"/>
+                  <stop offset="100%" style="stop-color:#2C3E50"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles suggesting wholeness -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Central motif combining key elements -->
+              <g transform="translate(50,50)">
+                <!-- Transformative spiral suggesting growth -->
+                <path d="M0,0 a20,20 0 0 1 20,-20 a20,20 0 0 1 -20,-20" 
+                      class="mystic-beam"
+                      style="stroke: rgba(255,255,255,0.6); fill: none; stroke-width: 2;"/>
+                      
+                <!-- Service/work element -->
+                <path d="M-5,-25 v10 M-8,-20 h6" 
+                      class="planet-symbol"
+                      style="stroke: rgba(255,255,255,0.8); stroke-width: 1.5;"/>
+                      
+                <!-- Emotional sensitivity -->
+                <path d="M15,0 a8,8 0 0 0 0,16 a6,6 0 0 1 0,-16" 
+                      class="moon-symbol"
+                      style="stroke: rgba(255,255,255,0.8); stroke-width: 1.5;"/>
+                      
+                <!-- Professional achievement -->
+                <path d="M-15,10 L-10,0 L-5,10" 
+                      class="planet-symbol"
+                      style="stroke: rgba(255,255,255,0.8); stroke-width: 1.5;"/>
+              </g>
+              
+              <!-- Decorative elements suggesting multifaceted nature -->
+              <g class="sparkles">
+                <circle cx="35" cy="35" r="1" class="sparkle" style="animation-delay: 0.5s;"/>
+                <circle cx="65" cy="35" r="1" class="sparkle" style="animation-delay: 1s;"/>
+                <circle cx="50" cy="65" r="1" class="sparkle" style="animation-delay: 1.5s;"/>
+              </g>
+            </svg>
+            <div class="symbol-label">Chart Overview</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Comprehensive Chart Analysis</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Transformative Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%"></div>
+            </div>
+            <div class="energy-label">Service Orientation</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%"></div>
+            </div>
+            <div class="energy-label">Emotional Depth</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Core Strengths</h2>
+              <ul class="traits-list">
+                <li>Deep transformative power</li>
+                <li>Strong service orientation</li>
+                <li>Natural healing abilities</li>
+                <li>Emotional sensitivity</li>
+                <li>Professional discipline</li>
+                <li>Metaphysical insight</li>
+                <li>Problem-solving skills</li>
+                <li>Intuitive wisdom</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Life Themes</h2>
+              <ul class="traits-list">
+                <li>Service & work focus</li>
+                <li>Emotional processing</li>
+                <li>Professional achievement</li>
+                <li>Spiritual exploration</li>
+                <li>Personal transformation</li>
+                <li>Health & healing</li>
+                <li>Family dynamics</li>
+                <li>Inner wisdom</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>This chart reveals a deeply transformative individual with a powerful focus on service, work, and personal growth. With a strong 6th house emphasis (Sun, Mercury, Venus, Jupiter, and Pluto), there is a natural orientation toward service, healing, and practical problem-solving. This placement cluster suggests someone who finds their greatest fulfillment through meaningful work and helping others, though they must be careful not to become overwhelmed by taking on too many responsibilities.</p>
+            
+            <p>The emotional nature is highly pronounced and sensitive, with the Moon in the 1st house creating a strongly intuitive and emotionally expressive personality. This placement, combined with Saturn in Pisces, suggests someone who processes life primarily through feeling and must learn to balance sensitivity with healthy boundaries. The chart shows significant emotional wisdom gained through processing past experiences, particularly around family dynamics (Mars in 4th house) and professional development (Saturn in 10th house).</p>
+            
+            <p>There is a strong spiritual and philosophical dimension to this chart, with both Uranus and Neptune in the 9th house. This creates a natural affinity for metaphysical studies and unconventional spiritual paths, though there's a need to maintain discernment to avoid confusion or idealistic delusions. The Scorpio Sun brings intensity and depth to all pursuits, while the Gemini moon adds mental versatility and a need for varied expression.</p>
+
+            <p>Career and professional development are significant themes, with Saturn in the 10th house indicating success through persistent effort and careful planning rather than luck. This placement suggests someone who can achieve significant professional status but must work through challenges with authority and learn to balance ambition with integrity.</p>
+            
+            <p>The key to fulfillment lies in embracing the role of the wounded healer - someone who transforms personal challenges into wisdom that can benefit others. The strong 6th house emphasis suggests finding ways to integrate service, healing, and practical problem-solving into daily life, while maintaining healthy boundaries and self-care practices. Success comes through accepting the role of a practical mystic who can bridge the spiritual and material worlds through dedicated service and transformative work.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rest of existing cards remain the same -->
+      <div class="profile-card sun-scorpio-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="scorpioGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="scorpioGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#800000"/>
+                  <stop offset="100%" style="stop-color:#4A0404"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with transformative energy -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="35" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="35" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Scorpio symbol -->
+              <g transform="translate(65,50)">
+                <!-- Scorpion body -->
+                <path d="M-10,0 C-5,0 -5,-5 0,-5 C5,-5 5,0 10,0" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Scorpion tail -->
+                <path d="M10,0 C15,0 15,5 20,5 L15,0 L20,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Eagle wings suggestion -->
+                <path d="M0,-5 C-2,-8 2,-8 0,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:1; opacity:0.6"/>
+              </g>
+              
+              <!-- Power wave suggesting transformation -->
+              <path d="M42,50 Q50,40 58,50" 
+                    class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 4s infinite;" />
+              
+              <!-- Decorative elements suggesting depth -->
+              <g class="sparkles">
+                <circle cx="50" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="45" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="55" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Sun in Scorpio</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Sun in Scorpio: The Transformer</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Intensity & Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Emotional Depth</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Willpower & Determination</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 98%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Core Strengths</h2>
+              <ul class="traits-list">
+                <li>Powerful intuition</li>
+                <li>Deep perception</li>
+                <li>Strong determination</li>
+                <li>Analytical mind</li>
+                <li>Magnetic personality</li>
+                <li>Resourceful nature</li>
+                <li>Intense concentration</li>
+                <li>Investigative skills</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Possessiveness</li>
+                <li>Vindictiveness</li>
+                <li>Excessive secrecy</li>
+                <li>Rigid opinions</li>
+                <li>Jealous tendencies</li>
+                <li>All-or-nothing approach</li>
+                <li>Self-punishment</li>
+                <li>Difficulty forgiving</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun in Scorpio symbolizes the transformative eagle and the passionate scorpion, representing your potential for both spiritual transcendence and intense emotional depth. As a Scorpio Sun, you possess remarkable willpower and determination, approaching life's challenges with unwavering focus and persistence. Your analytical mind, combined with powerful intuition, makes you a natural detective, always seeking to uncover life's deepest mysteries.</p>
+            <p>You form deep, meaningful connections with others, capable of extreme loyalty and self-sacrifice for those you love. Your emotional intensity runs deep beneath a controlled exterior, and you possess an extraordinary capacity for endurance and regeneration. While you easily make friends, you maintain an air of mystery, preferring to know others' plans while keeping your own closely guarded.</p>
+            <p>Your path involves learning to channel your intense nature constructively, transforming potential vindictiveness into forgiveness, and balancing your all-or-nothing tendencies with flexibility. In relationships, you seek profound emotional and physical connections, thriving in partnerships that offer both depth and loyalty. Your greatest challenge and opportunity lies in mastering your powerful emotions and using them for positive transformation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card moon-gemini-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="moonGeminiGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Moon symbol -->
+              <path d="M30,38 a12,12 0 0 0 0,24 a10,10 0 0 1 0,-24" 
+                    class="moon-symbol" />
+              
+              <!-- Gemini symbol -->
+              <g transform="translate(60,50) scale(0.7)">
+                <path d="M-10,-10 C0,-10 0,10 -10,10 M10,-10 C0,-10 0,10 10,10" 
+                      class="symbol-line main-lines"/>
+                <path d="M-5,0 H5 M-5,-5 H5"
+                      class="symbol-line connecting-lines"/>
+              </g>
+              
+              <!-- Ethereal connection beams -->
+              <path d="M42,50 Q50,45 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.6);" />
+              <path d="M42,50 Q50,55 58,50" class="harmony-beam"
+                    style="stroke: rgba(255,255,255,0.6);" />
+              
+              <!-- Decorative stars -->
+              <path d="M45,45 L47,47 L45,49 L43,47 Z" class="star" />
+              <path d="M53,45 L55,47 L53,49 L51,47 Z" class="star" />
+              <path d="M49,55 L51,57 L49,59 L47,57 Z" class="star" />
+            </svg>
+            <div class="symbol-label">Moon in Gemini</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Lunar Placement: Gemini</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Mental Agility</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+            <div class="energy-label">Communication</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+            <div class="energy-label">Emotional Flexibility</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Emotional Strengths</h2>
+              <ul class="traits-list">
+                <li>Intellectual curiosity</li>
+                <li>Versatile mind</li>
+                <li>Quick wit & charm</li>
+                <li>Social adaptability</li>
+                <li>Mental stimulation</li>
+                <li>Warm-hearted nature</li>
+                <li>Knowledge seeking</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Emotional depth</li>
+                <li>Nervous tension</li>
+                <li>Commitment fears</li>
+                <li>Over-intellectualizing</li>
+                <li>Indecisiveness</li>
+                <li>Excessive talking</li>
+                <li>Surface-level processing</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Moon in Gemini creates a fascinating relationship between your emotional nature and intellectual pursuits. You process feelings through the lens of thought and communication, often needing to talk through your emotions to fully understand them. This placement bestows you with a quick, versatile mind and an insatiable desire for knowledge and mental stimulation.</p>
+            <p>You form your closest bonds through intellectual connection and shared mental interests. While this gives you great social adaptability and charm, there can be a tendency to stay at the surface level of emotional experiences, avoiding deeper, more intense feelings that might feel overwhelming or too binding. The key to your emotional well-being lies in finding ways to balance your need for mental stimulation with genuine emotional engagement.</p>
+            <p>Your emotional security is tied to your ability to communicate and exchange ideas. You may find that your moods fluctuate with your thoughts, and you often process feelings through conversation and intellectual analysis. While you can be an engaging and adaptable companion, you may need to work on developing greater emotional depth and commitment in relationships, rather than keeping things purely on an intellectual level.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card mercury-scorpio-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="mercuryScorpioGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="mercuryScorpioGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#800000"/>
+                  <stop offset="100%" style="stop-color:#4A0404"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with mysterious aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mercury symbol -->
+              <g transform="translate(35,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-12 v24" class="planet-symbol" />
+                <path d="M-6,-6 h12" class="planet-symbol" />
+                <path d="M-4,4 q4,4 8,0" class="planet-symbol" />
+              </g>
+              
+              <!-- Scorpio symbol -->
+              <g transform="translate(65,50)">
+                <!-- Scorpion body -->
+                <path d="M-10,0 C-5,0 -5,-5 0,-5 C5,-5 5,0 10,0" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Scorpion tail -->
+                <path d="M10,0 C15,0 15,5 20,5 L15,0 L20,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Eagle wings suggestion -->
+                <path d="M0,-5 C-2,-8 2,-8 0,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:1; opacity:0.6"/>
+              </g>
+              
+              <!-- Penetrating insight beam -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite;" />
+              
+              <!-- Detective magnifying glass hint -->
+              <circle cx="50" cy="50" r="3" 
+                      style="fill:none; stroke:rgba(255,255,255,0.3); stroke-width:1;" />
+              <line x1="52" y1="52" x2="55" y2="55"
+                    style="stroke:rgba(255,255,255,0.3); stroke-width:1;" />
+            </svg>
+            <div class="symbol-label">Mercury in Scorpio</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mercury in Scorpio: The Penetrating Mind</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Mental Focus</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Investigative Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Intuitive Understanding</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 90%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Mental Strengths</h2>
+              <ul class="traits-list">
+                <li>Deep concentration</li>
+                <li>Detective abilities</li>
+                <li>Mechanical aptitude</li>
+                <li>Healing hands</li>
+                <li>Quick wit</li>
+                <li>Penetrating insight</li>
+                <li>Manual dexterity</li>
+                <li>Occult interest</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Excessive secrecy</li>
+                <li>Sharp tongue</li>
+                <li>Skepticism</li>
+                <li>Stubbornness</li>
+                <li>Oppositional nature</li>
+                <li>Critical humor</li>
+                <li>Obsessive thinking</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mercury in Scorpio bestows you with extraordinary mental concentration and the ability to become completely absorbed in your work. Like a master detective, you have a natural talent for uncovering hidden truths and seeing beneath the surface of both problems and people. Your mind operates at an instinctive, nonverbal level, preferring direct experience and hands-on learning to theoretical study.</p>
+            <p>Your mechanical aptitude and manual dexterity are notable strengths, giving you the ability to work skillfully with your hands - potentially even developing healing abilities through touch. Your communication style is direct and penetrating, often employing sharp wit and satirical humor to make your points. While you seek to know everything about others, you maintain a mysterious air, carefully guarding your own secrets.</p>
+            <p>Your challenge lies in balancing your natural skepticism and tendency toward oppositional thinking with more diplomatic forms of expression. Your penetrating mind and sharp tongue can be powerful tools for truth-seeking, but must be wielded with awareness of their impact on others. Your deep interest in occult subjects and life's mysteries can lead to profound insights when channeled constructively.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card venus-scorpio-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="venusScorpioGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with mysterious aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Venus symbol -->
+              <circle cx="35" cy="50" r="12" class="planet-symbol venus" />
+              <path d="M35,62 v10" class="venus-line" />
+              <path d="M30,67 h10" class="venus-line" />
+              
+              <!-- Scorpio symbol -->
+              <g transform="translate(65,50)">
+                <!-- Scorpion body -->
+                <path d="M-10,0 C-5,0 -5,-5 0,-5 C5,-5 5,0 10,0" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Scorpion tail -->
+                <path d="M10,0 C15,0 15,5 20,5 L15,0 L20,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Eagle wings suggestion -->
+                <path d="M0,-5 C-2,-8 2,-8 0,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:1; opacity:0.6"/>
+              </g>
+              
+              <!-- Passion and intensity beams -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite;" />
+              
+              <!-- Hearts suggesting love/passion -->
+              <path d="M48,45 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+              <path d="M52,55 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+            </svg>
+            <div class="symbol-label">Venus in Scorpio</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Venus in Scorpio: Deep Passion</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Emotional Intensity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Magnetic Attraction</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+            <div class="energy-label">Loyalty & Devotion</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 98%; background: linear-gradient(90deg, #800000, #4A0404);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Love & Attraction</h2>
+              <ul class="traits-list">
+                <li>Intense passion</li>
+                <li>Deep emotional bonds</li>
+                <li>Magnetic charm</li>
+                <li>Mysterious allure</li>
+                <li>Profound loyalty</li>
+                <li>Creative power</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Possessiveness</li>
+                <li>Jealousy</li>
+                <li>All-or-nothing attitude</li>
+                <li>Difficulty forgiving</li>
+                <li>Trust issues</li>
+                <li>Emotional control</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Venus in Scorpio placement creates an intense and passionate approach to love and relationships. You experience emotions deeply and form powerful bonds with others, craving relationships that offer both emotional depth and passionate intensity. Your magnetic personality and sultry charm naturally draw others to you, particularly those who possess an air of mystery.</p>
+            <p>In relationships, you give yourself completely and expect the same in return. This all-or-nothing approach to love can manifest as possessiveness and jealousy, particularly when you feel emotionally vulnerable. You place high demands on your partners and may struggle with trusting their platonic relationships. Once betrayed, your capacity for love can transform into an equally powerful force of rejection, as you rarely offer second chances.</p>
+            <p>This placement suggests past life lessons involving the creative force and matters of passion, desire, and regeneration. You have the opportunity in this lifetime to transform these intense emotions into spiritual devotion or creative expression. Your path involves learning to balance your deep emotional needs with healthy self-control, allowing for both intensity and freedom in your relationships.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="symbol-section">
+          <div class="zodiac-symbol">
+            <svg class="gemini-symbol" viewBox="0 0 100 100">
+              <!-- Enhanced Gemini symbol with decorative elements -->
+              <defs>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="40" class="symbol-bg" />
+              <circle cx="50" cy="50" r="35" class="symbol-bg-inner" />
+              <!-- Main Gemini symbol -->
+              <path d="M20,30 C30,30 30,70 20,70 M80,30 C70,30 70,70 80,70" 
+                    class="symbol-line main-lines"/>
+              <path d="M35,40 H65 M35,60 H65"
+                    class="symbol-line connecting-lines"/>
+              <!-- Decorative stars -->
+              <path d="M15,15 L18,18 L15,21 L12,18 Z" class="star"/>
+              <path d="M85,15 L88,18 L85,21 L82,18 Z" class="star"/>
+              <path d="M50,10 L53,13 L50,16 L47,13 Z" class="star"/>
+            </svg>
+            <div class="symbol-label">Gemini Rising</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Your Ascendant: Gemini</h1>
+          <div class="energy-meter">
+            <div class="energy-label">Mental Energy</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 90%"></div>
+            </div>
+            <div class="energy-label">Adaptability</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%"></div>
+            </div>
+            <div class="energy-label">Communication</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Key Characteristics</h2>
+              <ul class="traits-list">
+                <li>Friendly & Communicative</li>
+                <li>Flexible & Adaptable</li>
+                <li>Witty & Clever</li>
+                <li>Mentally Active</li>
+                <li>Quick-minded</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Challenges</h2>
+              <ul class="traits-list challenges">
+                <li>Indecisive</li>
+                <li>High-strung</li>
+                <li>Nervous/Anxious</li>
+                <li>Can be superficial</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>As a Gemini rising, you view the world through a lens of curiosity and intellectual exploration. Your ruling planet Mercury bestows you with quick wit and excellent communication skills. You have a natural ability to adapt to new situations and a constant hunger for knowledge.</p>
+            <p>You may experience life as a series of interesting conversations and opportunities to learn, though you might need to work on focusing your scattered energies. Your spiritual lesson involves learning to channel your versatile nature into deeper, more focused pursuits.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Planetary Aspects Card -->
+      <div class="profile-card aspects-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="aspectGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#FFA500"/>
+                </linearGradient>
+                <linearGradient id="plutoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#4B0082"/>
+                  <stop offset="100%" style="stop-color:#800080"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="30" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Pluto symbol -->
+              <circle cx="70" cy="50" r="12" class="planet-symbol pluto" />
+              <path d="M65,50 h10 M70,45 v10" class="pluto-cross" />
+              <circle cx="70" cy="50" r="8" class="planet-core pluto-core" />
+              
+              <!-- Connecting energy beam -->
+              <path d="M42,50 H58" class="aspect-beam" />
+              
+              <!-- Power indicator -->
+              <text x="50" y="85" class="power-text">Power: 10.64</text>
+            </svg>
+            <div class="symbol-label">Sun ⚡ Pluto</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Planetary Aspects: Sun-Pluto Blend</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Willpower</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%"></div>
+            </div>
+            <div class="energy-label">Personal Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 90%"></div>
+            </div>
+            <div class="energy-label">Transformative Energy</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Strengths</h2>
+              <ul class="traits-list">
+                <li>Powerful willpower</li>
+                <li>Natural leadership</li>
+                <li>Strong magnetism</li>
+                <li>Deep intensity</li>
+                <li>Transformative power</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Power obsession</li>
+                <li>Compromise resistance</li>
+                <li>Hidden intensity</li>
+                <li>Potential fanaticism</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun-Pluto aspect (power: 10.64) creates an intensely powerful personality driven by deep, transformative energies. This neutral aspect grants you extraordinary willpower and determination, making no challenge too great to overcome.</p>
+            <p>You possess a magnetic charisma that deeply affects others - they either feel drawn to your powerful presence or intimidated by it. Your destiny-driven nature and desire for recognition can lead to significant achievements, but remember to channel these energies wisely and consider the impact of your actions on others.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Saturn-Ascendant Card -->
+      <div class="profile-card saturn-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="saturnGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="saturnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#2C3E50"/>
+                  <stop offset="100%" style="stop-color:#34495E"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Saturn symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol saturn" />
+              <path d="M25,45 h10 M30,40 v15" class="saturn-cross" />
+              <path d="M23,38 q7,3 14,0" class="saturn-ring" />
+              
+              <!-- Gemini Rising symbol -->
+              <g transform="translate(60,40) scale(0.5)">
+                <path d="M20,30 C30,30 30,70 20,70 M40,30 C30,30 30,70 40,70" 
+                      class="symbol-line main-lines"/>
+                <path d="M25,40 H35 M25,60 H35"
+                      class="symbol-line connecting-lines"/>
+              </g>
+              
+              <!-- Discordant energy beam -->
+              <path d="M42,50 l2,-3 l2,6 l2,-6 l2,6 l2,-6 l2,6 l2,-6 l2,3" class="aspect-beam discordant" 
+                    style="stroke: #2C3E50; stroke-width: 3;" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 8.86</text>
+              <text x="50" y="92" class="power-text negative">Discord: -13.29</text>
+            </svg>
+            <div class="symbol-label">Saturn ⚡ Ascendant</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Saturn-Ascendant Aspect</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Self-Discipline</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 75%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Maturity</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 82%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Self-Confidence</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 45%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Manifestations</h2>
+              <ul class="traits-list">
+                <li>Serious-minded nature</li>
+                <li>Natural competence</li>
+                <li>Mature outlook</li>
+                <li>Strong work ethic</li>
+                <li>Cautious approach</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Challenges</h2>
+              <ul class="traits-list challenges">
+                <li>Self-doubt</li>
+                <li>Excessive criticism</li>
+                <li>Social withdrawal</li>
+                <li>Feelings of unworthiness</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Saturn-Ascendant aspect (power: 8.86, discord: -13.29) creates a serious and mature approach to life, though it can manifest as self-imposed limitations. This discordant aspect suggests a tendency toward self-criticism and withdrawal from social situations.</p>
+            <p>You naturally gravitate towards older or more mature individuals, finding wisdom and mentorship in these relationships. While you possess genuine competence, the challenging nature of this aspect may cause you to doubt your abilities. Your path involves learning to balance realistic self-assessment with self-acceptance.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Sun-Jupiter Card -->
+      <div class="profile-card jupiter-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiterGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="jupiterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#FFA500"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="30" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(58,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Harmonious energy beam with sparkles -->
+              <path d="M42,50 Q50,45 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.8); animation: beamFlow 3s linear infinite;" />
+              <path d="M42,50 Q50,55 58,50" class="harmony-beam"
+                    style="stroke: rgba(255,255,255,0.8); animation: beamFlow 3s linear infinite; animation-delay: 1.5s;" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 8.57</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +4.29</text>
+            </svg>
+            <div class="symbol-label">Sun ⚡ Jupiter</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Sun-Jupiter Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Optimism & Luck</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FFD700, #FFA500);"></div>
+            </div>
+            <div class="energy-label">Self-Confidence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #FFD700, #FFA500);"></div>
+            </div>
+            <div class="energy-label">Generosity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FFD700, #FFA500);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Blessings</h2>
+              <ul class="traits-list">
+                <li>Natural optimism</li>
+                <li>Good fortune</li>
+                <li>Generous spirit</li>
+                <li>Leadership ability</li>
+                <li>Protected path</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas to Watch</h2>
+              <ul class="traits-list challenges">
+                <li>Over-indulgence</li>
+                <li>Extravagance</li>
+                <li>False pride</li>
+                <li>Poor budgeting</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun-Jupiter aspect (power: 8.57, harmony: +4.29) bestows you with an abundance of optimism and self-confidence. This harmonious blend creates a naturally generous and friendly disposition that draws others to you. You're blessed with what many would call a 'guardian angel' effect - protection that seems to arrive just when needed.</p>
+            <p>You have grand visions and the confidence to pursue them, often finding success through a combination of hard work and fortunate circumstances. While this aspect brings material and spiritual blessings, be mindful of tendencies toward extravagance or over-confidence. Your path is one of expansive growth and spiritual seeking, marked by a deep desire to understand your true purpose.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Mars-Jupiter Card -->
+      <div class="profile-card mars-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="marsGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="marsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF4136"/>
+                  <stop offset="100%" style="stop-color:#FF851B"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mars symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol mars" />
+              <path d="M38,42 l4,-4 m-4,0 l4,4" class="mars-arrow" />
+              <circle cx="30" cy="50" r="8" class="planet-core mars-core" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(58,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Discordant energy beam -->
+              <path d="M42,50 l2,-3 l2,6 l2,-6 l2,6 l2,-6 l2,6 l2,-6 l2,3" 
+                    class="aspect-beam discordant" 
+                    style="stroke: #FF4136;" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 7.23</text>
+              <text x="50" y="92" class="power-text negative">Discord: -5.42</text>
+            </svg>
+            <div class="symbol-label">Mars ⚡ Jupiter</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mars-Jupiter Tension</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Physical Energy</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 85%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+            <div class="energy-label">Risk Taking</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 92%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+            <div class="energy-label">Self-Control</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 45%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Energetic Expressions</h2>
+              <ul class="traits-list">
+                <li>Abundant physical energy</li>
+                <li>Strong ambition</li>
+                <li>Love of challenge</li>
+                <li>Athletic potential</li>
+                <li>Adventurous spirit</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Opportunities</h2>
+              <ul class="traits-list challenges">
+                <li>Excessive risk-taking</li>
+                <li>Self-indulgence</li>
+                <li>Rushed decisions</li>
+                <li>Overconfidence</li>
+                <li>Competitive nature</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mars-Jupiter aspect (power: 7.23, discord: -5.42) creates a dynamic but challenging blend of energies. This combination bestows you with tremendous drive and ambition, yet it can manifest as excessive force or aggression in pursuing your goals. You possess an adventurous spirit that craves expansion and new experiences, though this can lead to risky behavior or overextension.</p>
+            <p>While you have natural athletic ability and leadership potential, the challenge lies in developing self-discipline and careful planning. Your path involves learning to balance your competitive nature with cooperative harmony, and to channel your abundant energy constructively rather than letting it dissipate through impulsiveness or excess.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Venus-Saturn Card -->
+      <div class="profile-card venus-saturn-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="venusGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="venusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF69B4"/>
+                  <stop offset="100%" style="stop-color:#FF1493"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Venus symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol venus" />
+              <path d="M30,62 v10" class="venus-line" />
+              <path d="M25,67 h10" class="venus-line" />
+              
+              <!-- Saturn symbol -->
+              <g transform="translate(58,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 h8" class="planet-symbol saturn" />
+                <path d="M-3,15 q10,3 20,0" class="saturn-ring" />
+              </g>
+              
+              <!-- Harmonious energy beam with hearts -->
+              <path d="M42,50 Q50,45 58,50" class="aspect-beam harmony-beam" />
+              <path d="M42,50 Q50,55 58,50" class="aspect-beam harmony-beam" />
+              
+              <!-- Small decorative hearts -->
+              <path d="M48,45 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+              <path d="M52,55 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 6.85</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +5.13</text>
+            </svg>
+            <div class="symbol-label">Venus ♡ Saturn</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Venus-Saturn Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Loyalty & Commitment</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FF69B4, #FF1493);"></div>
+            </div>
+            <div class="energy-label">Emotional Stability</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #FF69B4, #FF1493);"></div>
+            </div>
+            <div class="energy-label">Inner Security</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FF69B4, #FF1493);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Strengths</h2>
+              <ul class="traits-list">
+                <li>Deep loyalty</li>
+                <li>Emotional stability</li>
+                <li>Long-lasting bonds</li>
+                <li>Strong values</li>
+                <li>Natural maturity</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Expressions</h2>
+              <ul class="traits-list">
+                <li>Reserved affection</li>
+                <li>Simple tastes</li>
+                <li>Value authenticity</li>
+                <li>Natural dignity</li>
+                <li>Steadfast nature</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Venus-Saturn aspect (power: 6.85, harmony: +5.13) creates a deeply stable and mature approach to love and relationships. This harmonious blend bestows you with natural loyalty and a profound appreciation for lasting bonds. You value authenticity over superficial attractions, seeking meaningful connections that stand the test of time.</p>
+            <p>While you may be reserved in showing affection initially, your emotional depth and steadfast nature make you a devoted partner and friend. You possess an innate sense of duty towards loved ones, combined with the emotional maturity to navigate relationships with wisdom and patience. Your strength lies in building relationships that grow more profound and satisfying with time.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Moon-Venus Card -->
+      <div class="profile-card moon-venus-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="moonVenusGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="moonVenusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#E1BEE7"/>
+                  <stop offset="100%" style="stop-color:#CE93D8"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Moon symbol -->
+              <path d="M30,38 a12,12 0 0 0 0,24 a10,10 0 0 1 0,-24" 
+                    class="planet-symbol moon-symbol" />
+              
+              <!-- Venus symbol -->
+              <circle cx="70" cy="50" r="12" class="planet-symbol venus" />
+              <path d="M70,62 v10" class="venus-line" />
+              <path d="M65,67 h10" class="venus-line" />
+              
+              <!-- Harmonious connection with flowing lines and hearts -->
+              <path d="M42,50 Q50,45 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.8);" />
+              <path d="M42,50 Q50,55 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.8);" />
+              
+              <!-- Decorative elements -->
+              <path d="M48,45 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+              <path d="M52,55 l2,2 l2,-2 q-2,-2 -4,0" class="heart" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 6.07</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +7.59</text>
+            </svg>
+            <div class="symbol-label">Moon ♡ Venus</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Moon-Venus Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Emotional Intelligence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+            <div class="energy-label">Artistic Expression</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+            <div class="energy-label">Social Grace</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 98%; background: linear-gradient(90deg, #E1BEE7, #CE93D8);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Gifts</h2>
+              <ul class="traits-list">
+                <li>Natural empathy</li>
+                <li>Artistic sensitivity</li>
+                <li>Social grace</li>
+                <li>Nurturing nature</li>
+                <li>Diplomatic skill</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas to Watch</h2>
+              <ul class="traits-list">
+                <li>Sweet tooth</li>
+                <li>Comfort seeking</li>
+                <li>Over-indulgence</li>
+                <li>Periodic laziness</li>
+                <li>People pleasing</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Moon-Venus aspect (power: 6.07, harmony: +7.59) creates a beautiful blend of emotional sensitivity and artistic appreciation. This harmonious combination bestows you with natural charm and an innate ability to make others feel loved and appreciated. You have a deep understanding of beauty and harmony, which manifests in both your personal relationships and your creative expressions.</p>
+            <p>Your home is likely to be a reflection of your refined tastes and nurturing nature, creating an atmosphere of comfort and aesthetic pleasure. While you may need to watch tendencies toward overindulgence or taking the easy path, your genuine care for others and diplomatic nature make you a beloved figure in any social circle. Your emotional intelligence and artistic sensitivity are gifts that bring joy to both yourself and those around you.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Jupiter-Pluto card -->
+      <div class="profile-card jupiter-pluto-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiterPlutoGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <!-- Reusing existing gradients -->
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(28,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Pluto symbol -->
+              <circle cx="70" cy="50" r="12" class="planet-symbol pluto" />
+              <path d="M65,50 h10 M70,45 v10" class="pluto-cross" />
+              <circle cx="70" cy="50" r="8" class="planet-core pluto-core" />
+              
+              <!-- Harmonious connection with spiral energy -->
+              <path d="M42,50 Q50,45 58,50" class="harmony-beam" />
+              <path d="M42,50 Q50,55 58,50" class="harmony-beam" />
+              
+              <!-- Knowledge symbols -->
+              <g transform="translate(48,45) scale(0.15)">
+                <path d="M0,0 L10,0 L5,10 Z" class="star" />
+              </g>
+              <g transform="translate(52,55) scale(0.15)">
+                <path d="M0,0 L10,0 L5,10 Z" class="star" />
+              </g>
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 5.93</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +2.97</text>
+            </svg>
+            <div class="symbol-label">Jupiter ♡ Pluto</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Jupiter-Pluto Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Transformative Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Spiritual Growth</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Leadership Potential</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Strengths</h2>
+              <ul class="traits-list">
+                <li>Universal awareness</li>
+                <li>Transformative vision</li>
+                <li>Teaching ability</li>
+                <li>Natural leadership</li>
+                <li>Spiritual insight</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list">
+                <li>Need for control</li>
+                <li>Dogmatic views</li>
+                <li>Superiority complex</li>
+                <li>Resistance to guidance</li>
+                <li>Righteous attitude</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Jupiter-Pluto aspect (power: 5.93, harmony: +2.97) creates a powerful blend of expansive wisdom and transformative energy. This harmonious combination bestows you with a deep awareness of universal connectivity and a genuine desire to improve both yourself and the world around you. You possess natural leadership qualities and the ability to inspire others through your vision of positive change.</p>
+            <p>Your strength lies in your capacity to understand deep truths and share them with others, making you an excellent teacher or mentor. While you have great potential for bringing about meaningful change, your path involves learning to balance your strong convictions with openness to others' perspectives. Your challenge is to use your powerful insights and influence with wisdom and humility, remembering that true leadership includes the ability to listen and learn from others.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Uranus-Neptune card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="mysticGlow">
+                  <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="mysticGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#9C27B0"/>
+                  <stop offset="100%" style="stop-color:#3F51B5"/>
+                </linearGradient>
+                <!-- Add sparkling effect -->
+                <radialGradient id="sparkle">
+                  <stop offset="0%" stop-color="white" stop-opacity="1"/>
+                  <stop offset="100%" stop-color="white" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              
+              <!-- Background circles with mystical aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Uranus symbol -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-8 v16 M-4,-4 l8,0 M-4,4 l8,0" class="planet-symbol" />
+                <circle cx="0" cy="0" r="12" class="aura-ring" style="fill:none; stroke:rgba(255,255,255,0.2);" />
+              </g>
+              
+              <!-- Neptune symbol -->
+              <g transform="translate(70,45)">
+                <path d="M0,-8 C-8,-8 -8,8 0,8 C8,8 8,-8 0,-8" class="planet-symbol" />
+                <path d="M-4,0 H4 M0,-6 v12" class="planet-symbol" />
+              </g>
+              
+              <!-- Mystical connection beams -->
+              <path d="M42,50 Q50,35 58,50" class="mystic-beam" />
+              <path d="M42,50 Q50,65 58,50" class="mystic-beam" />
+              
+              <!-- Ethereal sparkles -->
+              <g class="sparkles">
+                <circle cx="50" cy="35" r="1" class="sparkle" />
+                <circle cx="45" cy="45" r="1" class="sparkle" />
+                <circle cx="55" cy="45" r="1" class="sparkle" />
+                <circle cx="50" cy="55" r="1" class="sparkle" />
+              </g>
+              
+              <!-- Power indicator -->
+              <text x="50" y="85" class="power-text">Power: 5.82</text>
+              <text x="50" y="92" class="power-text" style="fill: #E1BEE7;">Mystical Blend</text>
+            </svg>
+            <div class="symbol-label">Uranus ⚡ Neptune</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Uranus-Neptune Mystical Fusion</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Intuitive Awareness</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 94%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Spiritual Sensitivity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Scientific Innovation</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Mystical Gifts</h2>
+              <ul class="traits-list">
+                <li>Strong intuition</li>
+                <li>Psychic sensitivity</li>
+                <li>Scientific insight</li>
+                <li>Spiritual awareness</li>
+                <li>Universal connection</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas of Interest</h2>
+              <ul class="traits-list">
+                <li>Occult studies</li>
+                <li>Esoteric wisdom</li>
+                <li>Scientific research</li>
+                <li>Metaphysical exploration</li>
+                <li>Innovative spirituality</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Uranus-Neptune aspect (power: 5.82, neutral) creates a fascinating blend of revolutionary insight and spiritual awareness. This combination bestows you with exceptional intuitive abilities and a natural affinity for exploring the mysteries of existence. You have a unique capacity to bridge the spiritual and scientific realms, seeing connections that others might miss.</p>
+            <p>Your mind naturally gravitates toward the unusual and hidden aspects of life, making you an excellent researcher of both scientific and metaphysical subjects. This aspect grants you access to higher realms of consciousness, enabling you to perceive reality through multiple dimensions. Your challenge lies in grounding these profound insights into practical applications while maintaining your connection to universal wisdom.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Mars-Pluto card -->
+      <div class="profile-card mars-pluto-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="marsPlutoGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="marsPlutoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF4136"/>
+                  <stop offset="100%" style="stop-color:#85144b"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with intense aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mars symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol mars" />
+              <path d="M38,42 l4,-4 m-4,0 l4,4" class="mars-arrow" />
+              <circle cx="30" cy="50" r="8" class="planet-core mars-core" />
+              
+              <!-- Pluto symbol -->
+              <circle cx="70" cy="50" r="12" class="planet-symbol pluto" />
+              <path d="M65,50 h10 M70,45 v10" class="pluto-cross" />
+              <circle cx="70" cy="50" r="8" class="planet-core pluto-core" />
+              
+              <!-- Intense discordant connection -->
+              <path d="M42,50 l2,-4 l2,8 l2,-8 l2,8 l2,-8 l2,8 l2,-8 l2,4" 
+                    class="aspect-beam discordant" 
+                    style="stroke: #FF4136; stroke-width: 3;" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 5.16</text>
+              <text x="50" y="92" class="power-text negative">Discord: -6.45</text>
+            </svg>
+            <div class="symbol-label">Mars ⚡ Pluto</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mars-Pluto Power Dynamics</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Willpower & Drive</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 95%; background: linear-gradient(90deg, #FF4136, #85144b);"></div>
+            </div>
+            <div class="energy-label">Power & Control</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 88%; background: linear-gradient(90deg, #FF4136, #85144b);"></div>
+            </div>
+            <div class="energy-label">Physical Endurance</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 92%; background: linear-gradient(90deg, #FF4136, #85144b);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Raw Power</h2>
+              <ul class="traits-list">
+                <li>Extraordinary willpower</li>
+                <li>Intense determination</li>
+                <li>Powerful influence</li>
+                <li>Relentless drive</li>
+                <li>Extreme endurance</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Challenges</h2>
+              <ul class="traits-list challenges">
+                <li>Power obsession</li>
+                <li>Control issues</li>
+                <li>Intense secrecy</li>
+                <li>Compulsive behavior</li>
+                <li>Domineering tendencies</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mars-Pluto aspect (power: 5.16, discord: -6.45) creates an incredibly powerful but challenging blend of energies. This aspect bestows you with extraordinary willpower and an almost superhuman capacity for endurance. Your presence is magnetic and often intimidating to others, as they sense the raw power that emanates from your being.</p>
+            <p>While you possess the potential for remarkable achievements through your relentless determination, you must learn to harness and direct these intense energies constructively. Your challenge lies in transforming competitive drives into cooperative efforts, and in using your powerful influence to uplift rather than dominate others. Remember that true power comes not from control over others, but from mastery over yourself.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Sun-Saturn Card -->
+      <div class="profile-card saturn-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="sunSaturnGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="30" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Saturn symbol -->
+              <g transform="translate(58,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol saturn" />
+                <path d="M-3,15 q10,3 20,0" class="saturn-ring" />
+              </g>
+              
+              <!-- Discordant energy beam -->
+              <path d="M42,50 l2,-4 l2,8 l2,-8 l2,8 l2,-8 l2,8 l2,-4" 
+                    class="aspect-beam discordant" 
+                    style="stroke: #2C3E50; stroke-width: 3;" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 2.55</text>
+              <text x="50" y="92" class="power-text negative">Discord: -3.82</text>
+            </svg>
+            <div class="symbol-label">Sun ⚡ Saturn</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Sun-Saturn Tension</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Self-Confidence</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 35%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Discipline & Responsibility</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 85%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Inner Security</div>
+            <div class="meter">
+              <div class="meter-fill negative" style="width: 25%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Challenges</h2>
+              <ul class="traits-list challenges">
+                <li>Self-doubt & insecurity</li>
+                <li>Excessive self-criticism</li>
+                <li>Fear of failure</li>
+                <li>Emotional coldness</li>
+                <li>Authority conflicts</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Hidden Strengths</h2>
+              <ul class="traits-list">
+                <li>Great persistence</li>
+                <li>Strong endurance</li>
+                <li>Deep responsibility</li>
+                <li>Natural discipline</li>
+                <li>Careful planning</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun-Saturn aspect (power: 2.55, discord: -3.82) creates a serious, disciplined approach to life that can manifest as both a blessing and a challenge. While you possess remarkable persistence and endurance, you often struggle with self-doubt and feelings of personal inadequacy. Your highly responsible nature can lead to taking on too many obligations, working harder than necessary, and being overly self-critical.</p>
+            <p>This aspect brings lessons about lightening up and sharing yourself with others. Your tendency toward self-absorption and harsh self-judgment needs to be balanced with acceptance and openness. While you may experience delays and frustrations in achieving your goals, these challenges are teaching you patience and the importance of cooperation over self-interest. Your path involves learning to maintain your high standards while developing more compassion for yourself and others.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Jupiter-Uranus Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiterUranusGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="jupiterUranusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#4B0082"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(30,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Uranus symbol -->
+              <g transform="translate(70,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-8 v16 M-4,-4 l8,0 M-4,4 l8,0" class="planet-symbol" />
+                <circle cx="0" cy="0" r="12" class="aura-ring" style="fill:none; stroke:rgba(255,255,255,0.2);" />
+              </g>
+              
+              <!-- Harmonious energy beams with sparkles -->
+              <path d="M42,50 Q50,45 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.8); animation: beamFlow 3s linear infinite;" />
+              <path d="M42,50 Q50,55 58,50" class="harmony-beam"
+                    style="stroke: rgba(255,255,255,0.8); animation: beamFlow 3s linear infinite; animation-delay: 1.5s;" />
+              
+              <!-- Lightning bolt decorative elements -->
+              <path d="M48,45 l2,-3 l-1,3 l2,-2" class="sparkle" />
+              <path d="M52,55 l2,-3 l-1,3 l2,-2" class="sparkle" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 2.50</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +3.74</text>
+            </svg>
+            <div class="symbol-label">Jupiter ♡ Uranus</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Jupiter-Uranus Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Innovation & Intuition</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+            <div class="energy-label">Freedom & Independence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+            <div class="energy-label">Unexpected Fortune</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Gifts</h2>
+              <ul class="traits-list">
+                <li>Original thinking</li>
+                <li>Sudden opportunities</li>
+                <li>Inventive mind</li>
+                <li>Humanitarian outlook</li>
+                <li>Spiritual protection</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Expressions</h2>
+              <ul class="traits-list">
+                <li>Love of freedom</li>
+                <li>Benevolent nature</li>
+                <li>Occult interests</li>
+                <li>Progressive ideas</li>
+                <li>Adventurous spirit</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Jupiter-Uranus aspect (power: 2.50, harmony: +3.74) creates a fascinating blend of expansive wisdom and revolutionary insight. This harmonious combination brings unexpected opportunities and blessings into your life, often appearing when you least expect them. You possess an ingenious, inventive mind coupled with a broad, humane outlook that puts you slightly ahead of your time.</p>
+            <p>Your natural optimism and warm sense of humor make you a delightful companion, while your generous and hospitable nature draws others to you. You thrive on freedom and independence, finding routine work particularly challenging. This aspect indicates spiritual protection due to good deeds from past lives, manifesting as sudden strokes of luck and unexpected resources appearing when needed. Your path involves embracing change while maintaining your humanitarian values.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Sun-Uranus Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="sunUranusGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="sunUranusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#4B0082"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with electric aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="30" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Uranus symbol with electric field -->
+              <g transform="translate(70,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-8 v16 M-4,-4 l8,0 M-4,4 l8,0" class="planet-symbol" />
+                <circle cx="0" cy="0" r="12" class="aura-ring" style="fill:none; stroke:rgba(255,255,255,0.2);" />
+              </g>
+              
+              <!-- Electric energy beams -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" style="animation: pulseBeam 2s infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="mystic-beam" style="animation: pulseBeam 2s infinite; animation-delay: 1s;" />
+              
+              <!-- Lightning decorative elements -->
+              <path d="M48,45 l2,-3 l-1,3 l2,-2" class="sparkle" />
+              <path d="M52,55 l2,-3 l-1,3 l2,-2" class="sparkle" />
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 1.07</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +1.07</text>
+            </svg>
+            <div class="symbol-label">Sun ♡ Uranus</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Sun-Uranus Innovation</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Originality</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+            <div class="energy-label">Independence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+            <div class="energy-label">Intuitive Insight</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #FFD700, #4B0082);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Innovative Qualities</h2>
+              <ul class="traits-list">
+                <li>Original thinking</li>
+                <li>Technical aptitude</li>
+                <li>Inventive genius</li>
+                <li>Progressive outlook</li>
+                <li>Intuitive awareness</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas of Interest</h2>
+              <ul class="traits-list">
+                <li>Technology & computers</li>
+                <li>Astrology & metaphysics</li>
+                <li>Scientific advances</li>
+                <li>Unconventional paths</li>
+                <li>Revolutionary ideas</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun-Uranus aspect (power: 1.07, harmony: +1.07) creates an exciting blend of innovative thinking and unconventional approaches to life. This harmonious combination bestows you with a natural attraction to anything unusual or cutting-edge, particularly in areas of technology and metaphysical studies. You possess an inventive genius that allows you to find unique solutions to problems others might find challenging.</p>
+            <p>Your progressive outlook and willingness to embrace change make you naturally suited for work involving new technologies, scientific advancement, or revolutionary ideas. You experience frequent strokes of unexpected good luck, often just when needed most. Your challenge lies not in breaking free from convention, which comes naturally to you, but in finding practical applications for your highly original insights and intuitive flashes of genius.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Uranus-Pluto Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="uranusPlutoGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Uranus symbol with electric aura -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-8 v16 M-4,-4 l8,0 M-4,4 l8,0" class="planet-symbol" />
+                <circle cx="0" cy="0" r="12" class="aura-ring" style="fill:none; stroke:rgba(255,255,255,0.2);" />
+              </g>
+              
+              <!-- Pluto symbol -->
+              <circle cx="70" cy="50" r="12" class="planet-symbol pluto" />
+              <path d="M65,50 h10 M70,45 v10" class="pluto-cross" />
+              <circle cx="70" cy="50" r="8" class="planet-core pluto-core" />
+              
+              <!-- Harmonious energy beams with transformative effects -->
+              <path d="M42,50 Q50,40 58,50" class="harmony-beam" 
+                    style="animation: beamFlow 4s linear infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="harmony-beam"
+                    style="animation: beamFlow 4s linear infinite; animation-delay: 2s;" />
+              
+              <!-- Spark effects -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" />
+                <circle cx="52" cy="55" r="1" class="sparkle" />
+                <circle cx="50" cy="50" r="1" class="sparkle" />
+              </g>
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 0.43</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +0.43</text>
+            </svg>
+            <div class="symbol-label">Uranus ♡ Pluto</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Uranus-Pluto Evolution</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Transformative Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Innovative Reform</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Social Evolution</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Creative Powers</h2>
+              <ul class="traits-list">
+                <li>Innovative thinking</li>
+                <li>Reform-minded</li>
+                <li>Social consciousness</li>
+                <li>Adaptable nature</li>
+                <li>Progressive outlook</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Transformative Gifts</h2>
+              <ul class="traits-list">
+                <li>Peaceful change</li>
+                <li>Natural evolution</li>
+                <li>Creative solutions</li>
+                <li>Social improvement</li>
+                <li>Constructive reform</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Uranus-Pluto aspect (power: 0.43, harmony: +0.43) bestows you with a uniquely constructive approach to transformation and change. While this is a subtle influence due to its low power, it creates a harmonious blend of innovative thinking and regenerative power. You possess the ability to work for social reform and improvement without resorting to destructive or disruptive methods.</p>
+            <p>You instinctively understand that change is part of a larger evolutionary process, allowing you to embrace transformations with remarkable adaptability. Your creative mind naturally seeks ways to benefit society, and you have the rare ability to implement progressive changes while maintaining harmony and stability. This aspect supports your role as a peaceful agent of positive change in whatever sphere you choose to focus your energies.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Jupiter-Neptune Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiterNeptuneGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="jupiterNeptuneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#4169E1"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with ethereal glow -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(30,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Neptune symbol -->
+              <g transform="translate(70,45)">
+                <path d="M0,-8 C-8,-8 -8,8 0,8 C8,8 8,-8 0,-8" class="planet-symbol" />
+                <path d="M-4,0 H4 M0,-6 v12" class="planet-symbol" />
+              </g>
+              
+              <!-- Mystical connection beams -->
+              <path d="M42,50 Q50,40 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: beamFlow 4s linear infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="harmony-beam"
+                    style="stroke: rgba(255,255,255,0.6); animation: beamFlow 4s linear infinite; animation-delay: 2s;" />
+              
+              <!-- Ethereal decorative elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 0.31</text>
+              <text x="50" y="92" class="power-text" style="fill: #4CAF50;">Harmony: +0.47</text>
+            </svg>
+            <div class="symbol-label">Jupiter ♡ Neptune</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Jupiter-Neptune Spiritual Harmony</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Spiritual Sensitivity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Creative Imagination</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Intuitive Guidance</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Spiritual Gifts</h2>
+              <ul class="traits-list">
+                <li>Creative imagination</li>
+                <li>Spiritual insight</li>
+                <li>Artistic sensitivity</li>
+                <li>Compassionate nature</li>
+                <li>Strong intuition</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Divine Expressions</h2>
+              <ul class="traits-list">
+                <li>Musical appreciation</li>
+                <li>Metaphysical interests</li>
+                <li>Healing abilities</li>
+                <li>Visualization power</li>
+                <li>Inner guidance</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Jupiter-Neptune aspect (power: 0.31, harmony: +0.47) creates a beautiful blend of spiritual awareness and creative imagination. Though subtle in its influence due to its low power, this harmonious combination enhances your natural sensitivity to higher realms of consciousness and artistic expression. You have a gentle, compassionate nature that naturally draws others to seek your wisdom and guidance.</p>
+            <p>Your mind naturally gravitates toward artistic and metaphysical pursuits, with a particular affinity for healing work, creative writing, music, and the occult arts. The ocean holds a special healing power for you, offering solace and spiritual renewal. Your learning style is more intuitive than academic, absorbing knowledge through experience and insight rather than traditional study. This aspect supports your development of psychic abilities and healing powers, particularly through the laying on of hands.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Mercury-Neptune Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="mercuryNeptuneGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="mercuryNeptuneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#87CEEB"/>
+                  <stop offset="100%" style="stop-color:#4169E1"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with ethereal glow -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mercury symbol -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-12 v24" class="planet-symbol" />
+                <path d="M-6,-6 h12" class="planet-symbol" />
+                <path d="M-4,4 q4,4 8,0" class="planet-symbol" />
+              </g>
+              
+              <!-- Neptune symbol -->
+              <g transform="translate(70,45)">
+                <path d="M0,-8 C-8,-8 -8,8 0,8 C8,8 8,-8 0,-8" class="planet-symbol" />
+                <path d="M-4,0 H4 M0,-6 v12" class="planet-symbol" />
+              </g>
+              
+              <!-- Mystical connection beams -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 4s infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 4s infinite; animation-delay: 2s;" />
+              
+              <!-- Dream-like elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 0.00</text>
+              <text x="50" y="92" class="power-text" style="fill: #87CEEB;">Mystical Harmony</text>
+            </svg>
+            <div class="symbol-label">Mercury ☆ Neptune</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mercury-Neptune Mystic Vision</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Imagination & Visualization</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #87CEEB, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Intuitive Communication</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #87CEEB, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Artistic Expression</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #87CEEB, #4169E1);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Mystical Gifts</h2>
+              <ul class="traits-list">
+                <li>Vivid imagination</li>
+                <li>Psychic sensitivity</li>
+                <li>Healing abilities</li>
+                <li>Dream vision</li>
+                <li>Artistic inspiration</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Creative Expressions</h2>
+              <ul class="traits-list">
+                <li>Poetry & writing</li>
+                <li>Music & drama</li>
+                <li>Metaphysical study</li>
+                <li>Intuitive healing</li>
+                <li>Ocean connection</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mercury-Neptune aspect (power: 0.00, neutral) creates a beautiful bridge between your logical mind and the realm of imagination and dreams. Though subtle in its influence, this aspect bestows you with exceptional visualization abilities and creative inspiration. You have a natural ability to tap into your subconscious mind, bringing forth ideas and insights that can be transformed into practical reality.</p>
+            <p>Your mind naturally gravitates toward artistic and metaphysical pursuits, with a particular affinity for healing work, creative writing, music, and the occult arts. The ocean holds a special healing power for you, offering solace and spiritual renewal. Your learning style is more intuitive than academic, absorbing knowledge through experience and insight rather than traditional study. This aspect supports your development of psychic abilities and healing powers, particularly through the laying on of hands.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Sun-Neptune Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="sunNeptuneGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="sunNeptuneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FFD700"/>
+                  <stop offset="100%" style="stop-color:#4169E1"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with ethereal glow -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol sun" />
+              <circle cx="30" cy="50" r="8" class="planet-core sun-core" />
+              
+              <!-- Neptune symbol -->
+              <g transform="translate(70,45)">
+                <path d="M0,-8 C-8,-8 -8,8 0,8 C8,8 8,-8 0,-8" class="planet-symbol" />
+                <path d="M-4,0 H4 M0,-6 v12" class="planet-symbol" />
+              </g>
+              
+              <!-- Mystical connection with ethereal waves -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 5s infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 5s infinite; animation-delay: 2.5s;" />
+              
+              <!-- Ethereal decorative elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+              
+              <!-- Power indicators -->
+              <text x="50" y="85" class="power-text">Power: 0.00</text>
+              <text x="50" y="92" class="power-text" style="fill: #FFD700;">Divine Connection</text>
+            </svg>
+            <div class="symbol-label">Sun ☆ Neptune</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Sun-Neptune Spiritual Vision</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Spiritual Connection</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Artistic Expression</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+            <div class="energy-label">Universal Love</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 98%; background: linear-gradient(90deg, #FFD700, #4169E1);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Divine Gifts</h2>
+              <ul class="traits-list">
+                <li>Ethereal charm</li>
+                <li>Artistic vision</li>
+                <li>Spiritual wisdom</li>
+                <li>Universal connection</li>
+                <li>Psychic potential</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Creative Expressions</h2>
+              <ul class="traits-list">
+                <li>Mystical arts</li>
+                <li>Music & poetry</li>
+                <li>Visual artistry</li>
+                <li>Dance & drama</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Sun-Neptune aspect (power: 0.00, neutral) creates a beautiful bridge between your conscious self and the universal realms of inspiration and spirituality. Though subtle in its influence, this aspect bestows you with a deep sensitivity to beauty and an innate connection to the metaphysical dimensions of life. You possess a natural compassion that allows you to feel genuine empathy for all living beings.</p>
+            <p>Your creative imagination seeks expression through various artistic pursuits, whether through music, visual arts, dance, or photography. You have an ethereal charm and magnetism that draws others to you, and your ability to tap into higher wisdom makes you a natural guide for those seeking spiritual understanding. Previous lifetimes have developed your psychic abilities, and you can continue this growth by serving others through your intuitive gifts. Your challenge lies in grounding your beautiful visions and dreams into practical reality while maintaining your connection to the divine.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card mars-leo-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="leoGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="marsLeoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF4500"/>
+                  <stop offset="100%" style="stop-color:#FF8C00"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with dramatic flair -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mars symbol -->
+              <circle cx="35" cy="50" r="12" class="planet-symbol mars" />
+              <path d="M43,42 l4,-4 m-4,0 l4,4" class="mars-arrow" />
+              <circle cx="35" cy="50" r="8" class="planet-core mars-core" />
+              
+              <!-- Leo symbol with crown and mane -->
+              <g transform="translate(65,50)">
+                <!-- Crown -->
+                <path d="M-10,-8 l5,5 l5,-5 l5,5" class="leo-crown" />
+                <!-- Lion's mane suggestion -->
+                <path d="M0,0 q-8,-8 -16,0 q8,8 16,0" class="leo-mane" />
+                <path d="M0,0 q8,-8 16,0 q-8,8 -16,0" class="leo-mane" />
+                <!-- Lion's face suggestion -->
+                <circle cx="0" cy="0" r="6" class="planet-symbol" />
+              </g>
+              
+              <!-- Dramatic rays of power -->
+              <path d="M42,50 l2,-8 l2,16 l2,-16 l2,16 l2,-16 l2,16 l2,-8" 
+                    class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 2s infinite;" />
+              
+              <!-- Decorative sparks -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" />
+                <circle cx="52" cy="55" r="1" class="sparkle" />
+                <circle cx="50" cy="50" r="1" class="sparkle" />
+              </g>
+            </svg>
+            <div class="symbol-label">Mars in Leo</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mars in Leo: The Dramatic Warrior</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Self-Expression</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%"></div>
+            </div>
+            <div class="energy-label">Leadership Drive</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%"></div>
+            </div>
+            <div class="energy-label">Creative Energy</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Dynamic Strengths</h2>
+              <ul class="traits-list">
+                <li>Natural leadership</li>
+                <li>Strong willpower</li>
+                <li>Creative passion</li>
+                <li>Dramatic flair</li>
+                <li>Competitive drive</li>
+                <li>Personal integrity</li>
+                <li>Self-confidence</li>
+                <li>Artistic energy</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Excessive pride</li>
+                <li>Attention seeking</li>
+                <li>Arrogance</li>
+                <li>Risk-taking</li>
+                <li>Impulsiveness</li>
+                <li>Argumentative nature</li>
+                <li>Jealous tendencies</li>
+                <li>Need for applause</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mars in Leo placement creates a powerful drive for recognition and achievement, expressing itself through dramatic and creative channels. You possess natural leadership qualities and a strong desire to excel in everything you do. Your competitive nature makes you see life as a grand performance or game, and you play to win with remarkable determination and flair.</p>
+            <p>In matters of love and passion, you pursue your interests with tremendous fervor and directness, letting nothing stand in the way of your desires. Your approach is bold and straightforward – you're not one to hide your feelings or intentions. While this can sometimes come across as embarrassingly direct, your honesty and passionate nature are compelling to others.</p>
+            <p>Your challenge lies in balancing your strong ego needs with humility and consideration for others. While your self-confidence is admirable, it can become defensive or belligerent if challenged. Learning to channel your abundant energy constructively while keeping pride in check is essential for your growth. Remember that true leadership involves inspiring others rather than demanding the spotlight.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card jupiter-pluto-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiterScorpioGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with transformative energy -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(30,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- Scorpio symbol -->
+              <g transform="translate(65,50)">
+                <!-- Scorpion body -->
+                <path d="M-10,0 C-5,0 -5,-5 0,-5 C5,-5 5,0 10,0" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Scorpion tail -->
+                <path d="M10,0 C15,0 15,5 20,5 L15,0 L20,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:2"/>
+                <!-- Eagle wings suggestion -->
+                <path d="M0,-5 C-2,-8 2,-8 0,-5" 
+                      class="planet-symbol"
+                      style="fill:none; stroke:white; stroke-width:1; opacity:0.6"/>
+              </g>
+              
+              <!-- Power beams -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite; animation-delay: 1.5s;" />
+              
+              <!-- Decorative elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Jupiter in Scorpio</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Jupiter in Scorpio: Deep Prosperity</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Business Acumen</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Healing Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Inner Strength</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Empowered Gifts</h2>
+              <ul class="traits-list">
+                <li>Business efficiency</li>
+                <li>Financial acumen</li>
+                <li>Magnetic charisma</li>
+                <li>Healing abilities</li>
+                <li>Inner courage</li>
+                <li>Resource management</li>
+                <li>Task completion</li>
+                <li>Occult wisdom</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Over-indulgence</li>
+                <li>Risk-taking</li>
+                <li>Secrecy</li>
+                <li>Lower impulses</li>
+                <li>Wild speculation</li>
+                <li>Material attachment</li>
+                <li>Power seeking</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Jupiter in Scorpio placement bestows you with exceptional business acumen and an efficient, hard-working nature. You possess a natural flair for finance and resource management, approaching tasks with thorough dedication and unwavering commitment to completion. Your secretive nature is balanced by remarkable inner strength and courage, making you a formidable force in any endeavor you undertake.</p>
+            <p>This placement brings powerful healing abilities and a deep connection to occult wisdom. Your magnetic personality naturally draws others to you, while your ardent, aggressive, and self-reliant nature drives you toward success. You possess an enthusiastic, constructive mind that excels at strategic thinking and long-term planning.</p>
+            <p>Your challenge lies in managing tendencies toward over-indulgence, particularly in relation to material pleasures and rich experiences. Wild speculation and risk-taking should be carefully controlled. Your path involves channeling these powerful energies toward higher consciousness and greater universal wisdom, rather than purely material gain.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Saturn in Pisces Card -->
+      <div class="profile-card saturn-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="saturnPiscesGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="saturnPiscesGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#2C3E50"/>
+                  <stop offset="100%" style="stop-color:#3498DB"/>
+                </linearGradient>
+              </defs>
+              
+              <!-- Background circles with ethereal, misty effect -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Saturn symbol -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol saturn" />
+                <path d="M-4,0 h8" class="saturn-cross" />
+                <path d="M0,-4 v8" class="saturn-cross" />
+                <path d="M-6,-8 q12,4 24,0" class="saturn-ring" />
+              </g>
+              
+              <!-- Pisces symbol -->
+              <g transform="translate(70,50)">
+                <!-- Two fish connected by a cord -->
+                <path d="M-8,-5 C-4,-5 -4,5 -8,5" class="planet-symbol" />
+                <path d="M8,-5 C4,-5 4,5 8,5" class="planet-symbol" />
+                <path d="M-8,0 H8" class="planet-symbol" style="stroke-dasharray: 2 2;" />
+              </g>
+              
+              <!-- Mystical connection suggesting karmic ties -->
+              <path d="M42,50 Q50,35 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.3); animation: pulseBeam 6s infinite;" />
+              <path d="M42,50 Q50,65 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.3); animation: pulseBeam 6s infinite; animation-delay: 3s;" />
+              
+              <!-- Ethereal mist effect -->
+              <g class="sparkles" style="opacity: 0.5;">
+                <circle cx="45" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="55" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Saturn in Pisces</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Saturn in Pisces: The Karmic Teacher</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Spiritual Sensitivity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #2C3E50, #3498DB);"></div>
+            </div>
+            <div class="energy-label">Intuitive Understanding</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 82%; background: linear-gradient(90deg, #2C3E50, #3498DB);"></div>
+            </div>
+            <div class="energy-label">Sacrifice & Service</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #2C3E50, #3498DB);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Spiritual Gifts</h2>
+              <ul class="traits-list">
+                <li>Deep intuition</li>
+                <li>Karmic understanding</li>
+                <li>Healing capacity</li>
+                <li>Selfless service</li>
+                <li>Research ability</li>
+                <li>Behind-scenes work</li>
+                <li>Teaching wisdom</li>
+                <li>Practical idealism</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Challenges</h2>
+              <ul class="traits-list challenges">
+                <li>Setting boundaries</li>
+                <li>Staying organized</li>
+                <li>Mental clarity</li>
+                <li>Depression tendency</li>
+                <li>Past attachment</li>
+                <li>Emotional reactions</li>
+                <li>Self-sacrifice</li>
+                <li>Moodiness</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Saturn in Pisces placement creates a complex relationship between earthly responsibilities and spiritual sensitivity. This position often brings a deep sense of connection to past life experiences and their karmic implications in your current life. You possess a natural understanding that current challenges are opportunities to resolve past actions, though this awareness can sometimes feel like a heavy burden.</p>
+            <p>You excel in work that requires intuition, compassion, and behind-the-scenes effort, particularly in research or institutional settings. Your practical idealism allows you to bridge the gap between spiritual vision and concrete reality, though maintaining clear boundaries and organizational structure can be challenging. You have a natural ability to help others through their sorrows, having walked through your own depths of experience.</p>
+            <p>Your path involves learning to balance your deep sensitivity with practical discipline, and to transform past karmic patterns into wisdom that can benefit others. Success comes through accepting your role as a teacher of soul-earned wisdom, while maintaining healthy boundaries and emotional detachment. Remember that by releasing attachment to past sorrows, you become better equipped to serve as a light for others navigating similar paths.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Sun in 6th House Card -->
+      <div class="profile-card sun-scorpio-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="house6Glow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with service-oriented symbolism -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Sun symbol -->
+              <circle cx="25" cy="50" r="10" class="planet-symbol sun" />
+              <circle cx="25" cy="50" r="7" class="planet-core sun-core" />
+              
+              <!-- Mercury symbol -->
+              <g transform="translate(45,50)">
+                <circle cx="0" cy="0" r="6" class="planet-symbol" />
+                <path d="M0,-8 v16" class="planet-symbol" />
+                <path d="M-4,-4 h8" class="planet-symbol" />
+                <path d="M-3,3 q3,3 6,0" class="planet-symbol" />
+              </g>
+              
+              <!-- Venus symbol -->
+              <g transform="translate(65,50)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol venus" />
+                <path d="M0,8 v8" class="venus-line" />
+                <path d="M-4,12 h8" class="venus-line" />
+              </g>
+              
+              <!-- 6th House symbol - suggesting service and health -->
+              <g transform="translate(85,50)">
+                <!-- Healing staff symbol -->
+                <path d="M-5,-10 v20" class="planet-symbol" style="stroke-width: 2"/>
+                <path d="M-8,0 h6" class="planet-symbol" style="stroke-width: 2"/>
+              </g>
+              
+              <!-- Connection beams representing service -->
+              <path d="M35,50 Q50,40 65,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 4s infinite;" />
+              <path d="M35,50 Q50,60 65,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 4s infinite; animation-delay: 2s;" />
+            </svg>
+            <div class="symbol-label">Sun, Mercury & Venus in 6th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>6th House Stellium: Service, Work & Health</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Work Excellence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%"></div>
+            </div>
+            <div class="energy-label">Service & Helpfulness</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%"></div>
+            </div>
+            <div class="energy-label">Health Awareness</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Work & Service Strengths</h2>
+              <ul class="traits-list">
+                <li>Analytical ability</li>
+                <li>Technical aptitude</li>
+                <li>Diplomatic skill</li>
+                <li>Service orientation</li>
+                <li>Attention to detail</li>
+                <li>Well-liked by coworkers</li>
+                <li>Mediator abilities</li>
+                <li>Administrative talent</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Perfectionism</li>
+                <li>Work-related stress</li>
+                <li>Health anxiety</li>
+                <li>Job restlessness</li>
+                <li>Over-analysis</li>
+                <li>Self-indulgence</li>
+                <li>Workplace tension</li>
+                <li>Diet management</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Having the Sun, Mercury, and Venus in your 6th House creates a powerful focus on work, service, and health matters. This triple placement makes the workplace a central arena for expressing your identity and talents. You have excellent analytical abilities combined with a diplomatic nature that makes you well-liked by colleagues. Your natural inclination is to improve working conditions and create harmony in the workplace.</p>
+            <p>Mercury here gives you strong analytical skills and possible talent with computers and electronics. You need variety in your work to stay engaged, as you can become restless with routine tasks. Health and diet are significant interests, though you must be careful not to let detailed analysis turn into worry that affects your wellbeing. Your mind naturally gravitates toward service-oriented work, particularly tasks requiring mental acuity.</p>
+            <p>Venus adds a harmonious touch to your work environment, making you naturally diplomatic and well-liked by colleagues. You have a gift for mediating workplace conflicts and creating pleasant working conditions. However, this placement can also bring tendencies toward self-indulgence, particularly with rich foods and sweets. Managing diet and maintaining healthy boundaries between work and pleasure are important for your wellbeing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Moon in 1st House Card -->
+      <div class="profile-card moon-gemini-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="moonFirstGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with lunar symbolism -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Moon symbol -->
+              <path d="M35,38 a12,12 0 0 0 0,24 a10,10 0 0 1 0,-24" 
+                    class="moon-symbol" />
+              
+              <!-- 1st House symbol - suggesting personality/self -->
+              <g transform="translate(65,50)">
+                <circle cx="0" cy="0" r="12" class="planet-symbol" style="stroke-width: 2"/>
+                <!-- Self-expression rays -->
+                <path d="M-12,-12 L12,12 M-12,12 L12,-12" class="planet-symbol" style="stroke-width: 1"/>
+                <path d="M0,-15 L0,15 M-15,0 L15,0" class="planet-symbol" style="stroke-width: 1"/>
+              </g>
+              
+              <!-- Emotional waves connecting symbols -->
+              <path d="M42,50 Q50,35 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 5s infinite;" />
+              <path d="M42,50 Q50,65 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.4); animation: pulseBeam 5s infinite; animation-delay: 2.5s;" />
+              
+              <!-- Lunar phase decorative elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Moon in 1st House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Moon in 1st House: The Emotional Self</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Emotional Sensitivity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #9FA8DA, #7986CB);"></div>
+            </div>
+            <div class="energy-label">Self-Expression</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #9FA8DA, #7986CB);"></div>
+            </div>
+            <div class="energy-label">Emotional Independence</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 75%; background: linear-gradient(90deg, #9FA8DA, #7986CB);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Emotional Nature</h2>
+              <ul class="traits-list">
+                <li>Strong intuition</li>
+                <li>Emotional sensitivity</li>
+                <li>Natural empathy</li>
+                <li>Self-expression</li>
+                <li>Emotional depth</li>
+                <li>Maternal instincts</li>
+                <li>Creative nature</li>
+                <li>Personal uniqueness</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Moodiness</li>
+                <li>Oversensitivity</li>
+                <li>Self-consciousness</li>
+                <li>Emotional instability</li>
+                <li>Maternal dependency</li>
+                <li>Insecurity</li>
+                <li>Impulsiveness</li>
+                <li>People-pleasing</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Moon in the 1st House creates a highly sensitive and emotionally expressive personality. Your moods and feelings are readily apparent to others, as they're reflected in your appearance and demeanor. This placement makes you naturally intuitive and responsive to your environment, though it can also lead to significant mood swings and emotional volatility.</p>
+            <p>The influence of your mother or significant maternal figures plays a crucial role in shaping your personality and emotional patterns. This relationship continues to affect your behavior and emotional responses throughout life, making it important to understand and potentially transform these early conditioning patterns. Your challenge lies in developing emotional independence while maintaining your natural sensitivity.</p>
+            <p>In terms of vocation, you need work that allows for emotional engagement and personal expression. Your success depends on finding opportunities to incorporate your unique emotional perspective and intuitive understanding into your professional life. Without this emotional connection to your work, you may feel disconnected and unfulfilled. Remember that your sensitivity, while sometimes challenging, is also your greatest gift when properly channeled.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Mars in 4th House Card -->
+      <div class="profile-card mars-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="mars4thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with home/foundation symbolism -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Mars symbol -->
+              <g transform="translate(30,50)">
+                <circle cx="0" cy="0" r="12" class="planet-symbol mars" />
+                <path d="M8,-8 l4,-4 m-4,0 l4,4" class="mars-arrow" />
+                <circle cx="0" cy="0" r="8" class="planet-core mars-core" />
+              </g>
+              
+              <!-- 4th House symbol - representing home/foundations -->
+              <g transform="translate(70,50)">
+                <!-- House foundation symbol -->
+                <path d="M-12,8 L0,-8 L12,8" class="planet-symbol" style="stroke-width: 2"/>
+                <path d="M-8,8 L8,8" class="planet-symbol" style="stroke-width: 2"/>
+              </g>
+              
+              <!-- Dynamic energy connection -->
+              <path d="M42,50 l2,-4 l2,8 l2,-8 l2,8 l2,-8 l2,8 l2,-4" 
+                    class="aspect-beam discordant" 
+                    style="stroke: #FF4136; stroke-width: 2;" />
+              
+              <!-- Decorative elements suggesting home energy -->
+              <path d="M48,45 l2,-3 l-1,3 l2,-2" class="sparkle" />
+              <path d="M52,55 l2,-3 l-1,3 l2,-2" class="sparkle" />
+            </svg>
+            <div class="symbol-label">Mars in 4th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Mars in 4th House: Home Dynamics</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Domestic Drive</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+            <div class="energy-label">Independence Need</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+            <div class="energy-label">Emotional Control</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 45%; background: linear-gradient(90deg, #FF4136, #FF851B);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Home & Family</h2>
+              <ul class="traits-list">
+                <li>Strong independence drive</li>
+                <li>Desire for security</li>
+                <li>Home ownership focus</li>
+                <li>Physical activity needs</li>
+                <li>Domestic initiative</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Family tension</li>
+                <li>Hidden antagonisms</li>
+                <li>Emotional control</li>
+                <li>Demanding nature</li>
+                <li>Quarrelsome tendencies</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Mars in the 4th House creates a powerful drive for independence and security, particularly in relation to your home environment. You have a strong desire to establish your own home base and may feel restless until you achieve this goal. This placement can create dynamic energy within your domestic sphere, though it sometimes manifests as tension or conflict within the family environment.</p>
+            <p>There's a tendency to be quite demanding of those closest to you, and you may need to work on managing hidden antagonisms that can surface in family relationships. Physical activity, particularly around the home like gardening or home improvement projects, can be an excellent outlet for your abundant energy and help reduce domestic tensions.</p>
+            <p>Success with this placement comes through learning to channel your strong emotions constructively rather than letting them erupt in family conflicts. Working on home improvement projects, engaging in yard work, or other physical activities around the house can help release excess energy in positive ways. Learning to tone down and control your emotional reactions within the family sphere is key to creating the secure, peaceful home environment you deeply desire.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Jupiter in 6th House Card -->
+      <div class="profile-card jupiter-pluto-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="jupiter6thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Jupiter symbol -->
+              <g transform="translate(30,38)">
+                <path d="M0,12 C8,12 8,24 0,24 M4,18 H12 M0,18 H-4" class="planet-symbol" />
+              </g>
+              
+              <!-- 6th House symbol (service/health) -->
+              <g transform="translate(70,50)">
+                <!-- Healing staff symbol -->
+                <path d="M-5,-10 v20" class="planet-symbol" style="stroke-width: 2"/>
+                <path d="M-8,0 h6" class="planet-symbol" style="stroke-width: 2"/>
+              </g>
+              
+              <!-- Harmonious connection beams -->
+              <path d="M42,50 Q50,40 58,50" class="harmony-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: beamFlow 4s linear infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="harmony-beam"
+                    style="stroke: rgba(255,255,255,0.6); animation: beamFlow 4s linear infinite; animation-delay: 2s;" />
+              
+              <!-- Decorative elements -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Jupiter in 6th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Jupiter in 6th House: Service & Health</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Health Vitality</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Work Satisfaction</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Service Orientation</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Work & Health Blessings</h2>
+              <ul class="traits-list">
+                <li>Natural good health</li>
+                <li>Cooperative spirit</li>
+                <li>Service orientation</li>
+                <li>Work enjoyment</li>
+                <li>Employee loyalty</li>
+                <li>Helpful nature</li>
+                <li>Workplace harmony</li>
+                <li>Strong vitality</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas to Watch</h2>
+              <ul class="traits-list challenges">
+                <li>Over-indulgence</li>
+                <li>Excessive work</li>
+                <li>Health excesses</li>
+                <li>Circulation issues</li>
+                <li>Liver sensitivity</li>
+                <li>Dietary excess</li>
+                <li>Work boundaries</li>
+                <li>Blood health</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Jupiter in the 6th House bestows you with naturally good health and a positive outlook on work and service. This beneficial placement creates harmonious relationships in the workplace, where you excel at inspiring cooperation and goodwill among colleagues. You find genuine satisfaction in being helpful and are known for your dependability and loyalty in work situations.</p>
+            <p>While this position generally supports good health, you need to be mindful of tendencies toward excess and overindulgence. Your generous nature can express itself through overworking or overdoing things, particularly in matters of food and drink. Pay special attention to liver health and circulation, as these areas may be sensitive to dietary excesses.</p>
+            <p>Your willingness to give time and energy to others makes you a valued team member, but remember to maintain healthy boundaries to prevent burnout. Success comes through finding balance between your natural generosity and self-care. When you maintain this balance, your presence brings expansion and improvement to any workplace or service environment you enter.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Saturn in 10th House Card -->
+      <div class="profile-card saturn-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="saturn10thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with professional/authority symbolism -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Saturn symbol -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol saturn" />
+                <path d="M-4,0 h8" class="saturn-cross" />
+                <path d="M0,-4 v8" class="saturn-cross" />
+                <path d="M-6,-8 q12,4 24,0" class="saturn-ring" />
+              </g>
+              
+              <!-- 10th House symbol - mountain peak representing career/achievement -->
+              <g transform="translate(70,50)">
+                <path d="M-12,8 L0,-8 L12,8" class="planet-symbol" style="stroke-width: 2"/>
+                <path d="M-8,8 L8,8" class="planet-symbol" style="stroke-width: 2"/>
+                <!-- Crown symbol suggesting authority -->
+                <path d="M-6,-4 L-3,-1 L0,-4 L3,-1 L6,-4" 
+                      class="planet-symbol"
+                      style="stroke-width: 1; opacity: 0.6"/>
+              </g>
+              
+              <!-- Disciplined energy connection -->
+              <path d="M42,50 l2,-4 l2,8 l2,-8 l2,8 l2,-8 l2,8 l2,-4" 
+                    class="aspect-beam discordant" 
+                    style="stroke: #2C3E50; stroke-width: 2;" />
+            </svg>
+            <div class="symbol-label">Saturn in 10th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Saturn in 10th House: The Professional Builder</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Professional Achievement</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Business Acumen</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+            <div class="energy-label">Authority & Responsibility</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #2C3E50, #34495E);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Professional Strengths</h2>
+              <ul class="traits-list">
+                <li>Self-reliance</li>
+                <li>Business acumen</li>
+                <li>Organizational skill</li>
+                <li>Strong work ethic</li>
+                <li>Perseverance</li>
+                <li>Independence</li>
+                <li>Leadership ability</li>
+                <li>Professional discipline</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Excessive ambition</li>
+                <li>Power struggles</li>
+                <li>Parental conflicts</li>
+                <li>Career delays</li>
+                <li>Authority issues</li>
+                <li>Relationship burning</li>
+                <li>Control tendencies</li>
+                <li>Success anxiety</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Saturn in the 10th House creates a powerful focus on career achievement and professional responsibility. This placement bestows you with natural business acumen and organizational abilities, though success tends to come through persistent effort rather than lucky breaks. You have the potential for significant professional achievement, but must be willing to work diligently and accept full responsibility for your choices.</p>
+            <p>Early experiences with authority figures, particularly parents, may have shaped your approach to career and public life. While these influences can create initial challenges with authority, they also instill a deep sense of responsibility and self-reliance. Your path to success requires careful navigation of power dynamics and the wise use of authority when it comes your way.</p>
+            <p>The key to mastering this placement lies in balancing ambition with integrity. While you may feel driven to achieve status and recognition, attempting to manipulate or use others for personal gain will ultimately lead to setbacks. Focus instead on building lasting professional relationships and maintaining your reputation through honest, dedicated work. Remember that true success comes not just from reaching the top, but from how you conduct yourself on the journey there.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Uranus in 9th House Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="uranus9thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with cosmic energy -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Uranus symbol -->
+              <g transform="translate(30,45)">
+                <circle cx="0" cy="0" r="8" class="planet-symbol" />
+                <path d="M0,-8 v16 M-4,-4 l8,0 M-4,4 l8,0" class="planet-symbol" />
+                <circle cx="0" cy="0" r="12" class="aura-ring" style="fill:none; stroke:rgba(255,255,255,0.2);" />
+              </g>
+              
+              <!-- 9th House symbol (philosophy/higher learning) -->
+              <g transform="translate(70,50)">
+                <!-- Flame of knowledge -->
+                <path d="M0,-12 C-8,-4 -4,4 0,8 C4,4 8,-4 0,-12" 
+                      class="planet-symbol"
+                      style="stroke-width: 2"/>
+                <!-- Book or scroll suggestion -->
+                <path d="M-8,2 C-4,-2 4,-2 8,2" 
+                      class="planet-symbol"
+                      style="stroke-width: 1; fill: none;"/>
+              </g>
+              
+              <!-- Lightning-like connection suggesting sudden inspiration -->
+              <path d="M42,50 l2,-8 l3,16 l2,-16 l3,16 l2,-16 l2,8" 
+                    class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite;" />
+              
+              <!-- Spark effects -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Uranus in 9th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Uranus in 9th House: The Cosmic Explorer</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Mental Innovation</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Intuitive Insight</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Philosophical Freedom</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Mental Gifts</h2>
+              <ul class="traits-list">
+                <li>Original thinking</li>
+                <li>Intuitive flashes</li>
+                <li>Metaphysical interest</li>
+                <li>Cultural exploration</li>
+                <li>Prophetic insight</li>
+                <li>Mental expansion</li>
+                <li>Innovative philosophy</li>
+                <li>Sudden revelations</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Areas to Watch</h2>
+              <ul class="traits-list challenges">
+                <li>Mental overwhelm</li>
+                <li>Nervous tension</li>
+                <li>Scattered focus</li>
+                <li>Erratic beliefs</li>
+                <li>Unconventional views</li>
+                <li>Impulsive travel</li>
+                <li>Mental restlessness</li>
+                <li>Information overload</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Uranus in the 9th House creates a highly original and independent approach to philosophy, higher education, and spiritual matters. You have a natural attraction to unconventional belief systems and may find yourself drawn to metaphysical studies or alternative spiritual paths. Your mind is naturally geared toward exploring the unexplained and pushing beyond conventional boundaries of thought.</p>
+            <p>This placement brings sudden flashes of intuition and possibly prophetic dreams or visions. You may experience unexpected opportunities for long-distance travel or sudden changes in your educational path. Your approach to learning is unique and often involves synthesizing information in innovative ways that others might not consider.</p>
+            <p>While your mental energy and desire for expansion are powerful assets, it's essential to ground these energies to prevent nervous tension or mental overwhelm. Balance your pursuit of higher knowledge with practical application and regular mental rest. Your role is often that of the revolutionary thinker or spiritual innovator, but remember that lasting change requires both inspiration and careful implementation.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Neptune in 9th House Card -->
+      <div class="profile-card uranus-neptune-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="neptune9thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with mystical aura -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Neptune symbol -->
+              <g transform="translate(30,45)">
+                <path d="M0,-8 C-8,-8 -8,8 0,8 C8,8 8,-8 0,-8" class="planet-symbol" />
+                <path d="M-4,0 H4 M0,-6 v12" class="planet-symbol" />
+              </g>
+              
+              <!-- 9th House symbol (spirituality/higher wisdom) -->
+              <g transform="translate(70,50)">
+                <!-- Mystical flame -->
+                <path d="M0,-12 C-8,-4 -4,4 0,8 C4,4 8,-4 0,-12" 
+                      class="planet-symbol"
+                      style="stroke-width: 2"/>
+                <!-- Ethereal waves suggesting spiritual vibration -->
+                <path d="M-8,2 C-4,-2 4,-2 8,2" 
+                      class="planet-symbol"
+                      style="stroke-width: 1; fill: none;"/>
+                <path d="M-8,-2 C-4,-6 4,-6 8,-2" 
+                      class="planet-symbol"
+                      style="stroke-width: 1; fill: none; opacity: 0.6"/>
+              </g>
+              
+              <!-- Mystical connection beams -->
+              <path d="M42,50 Q50,35 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.3); animation: pulseBeam 6s infinite;" />
+              <path d="M42,50 Q50,65 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.3); animation: pulseBeam 6s infinite; animation-delay: 3s;" />
+              
+              <!-- Ethereal mist effect -->
+              <g class="sparkles" style="opacity: 0.5;">
+                <circle cx="45" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="55" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Neptune in 9th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Neptune in 9th House: The Mystical Seeker</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Spiritual Sensitivity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Idealistic Vision</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+            <div class="energy-label">Mystical Understanding</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #9C27B0, #3F51B5);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Spiritual Gifts</h2>
+              <ul class="traits-list">
+                <li>Mystical insight</li>
+                <li>Prophetic dreams</li>
+                <li>Universal awareness</li>
+                <li>Spiritual sensitivity</li>
+                <li>Intuitive wisdom</li>
+                <li>Philosophical depth</li>
+                <li>Creative inspiration</li>
+                <li>Divine connection</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Religious confusion</li>
+                <li>Spiritual deception</li>
+                <li>Clouded judgment</li>
+                <li>Escapist tendencies</li>
+                <li>Over-idealization</li>
+                <li>Travel confusion</li>
+                <li>In-law difficulties</li>
+                <li>Fanatical leanings</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Neptune in the 9th House creates a deeply mystical and intuitive approach to spirituality and higher learning. You naturally gravitate toward philosophies that emphasize the interconnectedness of all life and the eternal nature of Spirit. Your dreams can be remarkably vivid and may contain prophetic insights, serving as a bridge between your conscious mind and higher realms of understanding.</p>
+            <p>While this placement bestows you with remarkable spiritual sensitivity and intuition, it can also create confusion around religious and philosophical matters. You must be particularly discerning about spiritual teachers and teachings, as you may be vulnerable to deception or self-delusion in these areas. Your wanderlust manifests as a desire for unplanned, spontaneous travel, though this can sometimes lead to unexpected complications.</p>
+            <p>The key to mastering this placement lies in balancing your idealistic vision with practical discernment. While your natural reverence and mystical inclinations are genuine gifts, they must be tempered with careful judgment to avoid falling into fanaticism or spiritual confusion. Learn to trust your intuitive insights while maintaining a grounded approach to spiritual exploration. Remember that true spiritual wisdom often comes through direct experience rather than following others' paths.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Pluto in 6th House Card -->
+      <div class="profile-card jupiter-pluto-card">
+        <div class="symbol-section">
+          <div class="aspect-symbol">
+            <svg class="aspect-diagram" viewBox="0 0 100 100">
+              <defs>
+                <filter id="pluto6thGlow">
+                  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+              
+              <!-- Background circles with transformative healing energy -->
+              <circle cx="50" cy="50" r="45" class="symbol-bg" />
+              <circle cx="50" cy="50" r="40" class="symbol-bg-inner" />
+              
+              <!-- Pluto symbol -->
+              <circle cx="30" cy="50" r="12" class="planet-symbol pluto" />
+              <path d="M25,50 h10 M30,45 v10" class="pluto-cross" />
+              <circle cx="30" cy="50" r="8" class="planet-core pluto-core" />
+              
+              <!-- 6th House healing staff symbol -->
+              <g transform="translate(70,50)">
+                <path d="M-5,-10 v20" class="planet-symbol" style="stroke-width: 2"/>
+                <path d="M-8,0 h6" class="planet-symbol" style="stroke-width: 2"/>
+                <!-- Transformative spiral -->
+                <path d="M0,0 a4,4 0 0 1 4,-4 a4,4 0 0 1 -4,-4" 
+                      class="planet-symbol"
+                      style="stroke-width: 1; opacity: 0.6"/>
+              </g>
+              
+              <!-- Power beams suggesting transformation -->
+              <path d="M42,50 Q50,40 58,50" class="mystic-beam" 
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite;" />
+              <path d="M42,50 Q50,60 58,50" class="mystic-beam"
+                    style="stroke: rgba(255,255,255,0.6); animation: pulseBeam 3s infinite; animation-delay: 1.5s;" />
+              
+              <!-- Problem-solving spark effects -->
+              <g class="sparkles">
+                <circle cx="48" cy="45" r="1" class="sparkle" style="animation-delay: 0.5s;" />
+                <circle cx="52" cy="55" r="1" class="sparkle" style="animation-delay: 1s;" />
+                <circle cx="50" cy="50" r="1" class="sparkle" style="animation-delay: 1.5s;" />
+              </g>
+            </svg>
+            <div class="symbol-label">Pluto in 6th House</div>
+          </div>
+        </div>
+        
+        <div class="info-section">
+          <h1>Pluto in 6th House: The Transformative Worker</h1>
+          
+          <div class="energy-meter">
+            <div class="energy-label">Problem-Solving Power</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 95%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Healing Ability</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 88%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+            <div class="energy-label">Work Intensity</div>
+            <div class="meter">
+              <div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #4B0082, #800080);"></div>
+            </div>
+          </div>
+          
+          <div class="traits-container">
+            <div class="trait-group">
+              <h2>Work & Service Powers</h2>
+              <ul class="traits-list">
+                <li>Deep analysis</li>
+                <li>Problem solving</li>
+                <li>Healing abilities</li>
+                <li>Work dedication</li>
+                <li>Crisis management</li>
+                <li>Detective skills</li>
+                <li>Transformation power</li>
+                <li>Endurance</li>
+              </ul>
+            </div>
+            
+            <div class="trait-group">
+              <h2>Growth Areas</h2>
+              <ul class="traits-list challenges">
+                <li>Control issues</li>
+                <li>Workaholic tendencies</li>
+                <li>Unconscious criticism</li>
+                <li>Health anxiety</li>
+                <li>Nervous exhaustion</li>
+                <li>Power struggles</li>
+                <li>Perfectionism</li>
+                <li>Physical stress</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="description">
+            <p>Your Pluto in the 6th House creates profound transformations through work and service activities. You possess an exceptional ability to solve complex problems and uncover hidden issues that others might miss. This placement bestows you with natural detective abilities and an intense approach to work that can lead to significant achievements, though it's important to manage your tendency to work beyond your physical limits.</p>
+            <p>You have a natural healing ability that can manifest either through formal healthcare work or through an intuitive understanding of others' physical and psychological issues. Your analytical mind excels at troubleshooting and crisis management, making you invaluable in workplace situations that require deep investigation or transformation. However, be mindful of unconsciously projecting criticism toward coworkers or becoming too controlling in work environments.</p>
+            <p>Health matters may require special attention, particularly regarding the colon area and infectious diseases. Your intense work style can lead to nervous exhaustion if not properly managed. Success comes through learning to balance your powerful drive for workplace excellence with appropriate self-care and physical rest. Remember that true power lies not in controlling others but in mastering your own transformative abilities for the benefit of all.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
